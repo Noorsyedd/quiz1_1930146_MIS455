@@ -1,0 +1,94 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3498db; /* Blue background */
+    color: #fff; /* White text color */
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+  font-style: normal;
+    text-align: left;
+    padding: 20px;
+    background-color: #3498db; /* Blue background for the header */
+    color: #fff; /* White text color for the header */
+    border-left: 8px solid white;
+    
+    
+    
+    
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px; /* Increased padding for a taller form */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 400px; /* Added max-width for smaller screens */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Added margin for better spacing */
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #3498db; /* Blue underline */
+    outline: none;
+    font-size: 16px; /* Larger font size */
+}
+
+.login-form button {
+    background-color: #3498db; /* Blue button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 25px; /* Curved border */
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+
+.login-form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.login-container p {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px; /* Larger font size */
+}
+
+.signup-link,
+.forgot-password-link,
+.not-member-text {
+    color: #3498db; /* Blue color for the links and text */
+    text-decoration: none;
+    font-weight: bold;
+    display: block; /* Make the link a block element */
+    font-size: 16px; /* Larger font size */
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .login-container {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
